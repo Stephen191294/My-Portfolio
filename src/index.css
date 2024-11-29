@@ -1,5 +1,44 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  transform: translateX(100%); 
+  transition: transform 0.3s ease-out; 
+}
+
+.sidebar.visible {
+  transform: translateX(0); 
+}
+
+
+/* Light Mode */
+body.light {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Dark Mode */
+body.dark {
+  background-color: #121212;
+  color: #fff;
+}
+
+/* Other styles for light and dark theme can be added here */
