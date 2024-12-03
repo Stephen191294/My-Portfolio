@@ -55,7 +55,7 @@ export default function Main() {
         </div>
       </div>
       <div>
-        <h4 className="text-center mt-10">Projects</h4>
+        <h4 className="text-center mt-10 text-2xl">Projects</h4>
       </div>
       <div className="carousel  p-10">
         <div className="carousel-item">
@@ -99,6 +99,31 @@ export default function Main() {
             src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
             alt="Burger"
           />
+        </div>
+      </div>
+      <div>
+        <h5 className="text-2xl text-center">Contacts</h5>
+      </div>
+      <div className="flex flex-col justify-center items-center gap-6">
+        <div className="flex flex-col justify-center items-center">
+        <i class="fa-regular fa-envelope text-green-900 fa-3x"></i>
+        <span>E-mail</span>
+        <span>sullivanstephen57@yahoo.com</span>
+        </div>
+        <div className="flex flex-col justify-center items-center">
+        <i class="fa-solid fa-phone  text-green-900 fa-3x"></i>
+        <span>Telephone</span>
+        <span>(71)98639-3059</span>
+        </div>
+        <div className="flex flex-col justify-center items-center">
+        <i class="fa-brands fa-linkedin  text-green-900 fa-3x"></i>
+        <span>Linkedin</span>
+        <span>www.linkedin.com/in/stephen-sullivan-4ab85aa1</span>
+        </div>
+        <div className="flex flex-col justify-center items-center">
+        <i class="fa-brands fa-github  text-green-900 fa-3x"></i>
+        <span>Github</span>
+        <span>https://github.com/Stephen191294</span>
         </div>
       </div>
     </section>
