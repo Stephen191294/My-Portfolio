@@ -31,7 +31,7 @@ export default function NavBar() {
   return (
     <header className="w-full">
       <nav
-        className="bg-dark-900 h-28 border-b-2 border-gray-300 flex p-5"
+        className="bg-dark-900 h-28 border-b-4 border-green-900 flex p-5"
         role="navigation"
       >
         {/* Sidebar Menu */}
