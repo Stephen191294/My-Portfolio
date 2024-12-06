@@ -30,16 +30,16 @@ export default function ProjectsSection() {
         </div>
       </div>
       <div className="flex w-full justify-center gap-2 py-2">
-        <a href="#item1" className="btn btn-xs bg-green-900">
+        <a href="#item1" className="btn btn-xs bg-green-light">
           1
         </a>
-        <a href="#item2" className="btn btn-xs bg-green-900">
+        <a href="#item2" className="btn btn-xs bg-green-light">
           2
         </a>
-        <a href="#item3" className="btn btn-xs bg-green-900">
+        <a href="#item3" className="btn btn-xs bg-green-light">
           3
         </a>
-        <a href="#item4" className="btn btn-xs bg-green-900">
+        <a href="#item4" className="btn btn-xs bg-green-light">
           4
         </a>
       </div>

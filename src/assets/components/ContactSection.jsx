@@ -28,7 +28,7 @@ export default function ContactSection() {
       <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-6 relative wow animate__animated animate__fadeInLeft">
         {contacts.map((contact, index) => (
           <div className="flex flex-col justify-center items-center" key={index}>
-            <i className={`cursor-pointer ${contact.iconClass} text-green-900 fa-3x animate-pulse`} ></i>
+            <i className={`cursor-pointer ${contact.iconClass} text-green-light fa-3x animate-pulse`} ></i>
             <span>{contact.label}</span>
             <span className="cursor-pointer">{contact.value}</span>
           </div>

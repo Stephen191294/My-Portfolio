@@ -31,7 +31,7 @@ export default function NavBar() {
   return (
     <header className="w-full sticky top-0 z-50">
       <nav
-        className="bg-dark-900 h-28 border-b-4 border-green-900 flex p-10 "
+        className="bg-dark-900 h-28 border-b-4 border-green-light flex p-10 "
         role="navigation"
       >
         {/* Sidebar Menu */}
@@ -46,24 +46,24 @@ export default function NavBar() {
             </a>
           </li>
           <li className="mt-4 sm:pl-10">
-            <span className="text-green-900 sm:text-5xl">Welcome to my portfolio!</span>
+            <span className="text-green-light sm:text-5xl">Welcome to my portfolio!</span>
           </li>
-          <li className="mt-4 hover:text-green-900 sm:text-4xl sm:pl-10">
+          <li className="mt-4 hover:text-green-light sm:text-4xl sm:pl-10">
             <a href="#About" onClick={hideSidebar}>About me</a>
           </li>
-          <li className="mt-4 hover:text-green-900 sm:text-4xl sm:pl-10">
+          <li className="mt-4 hover:text-green-light sm:text-4xl sm:pl-10">
             <a href="#Skills" onClick={hideSidebar}>Skills</a>
           </li>
-          <li className="mt-4 hover:text-green-900 sm:text-4xl sm:pl-10">
+          <li className="mt-4 hover:text-green-light sm:text-4xl sm:pl-10">
             <a href="#Projects" onClick={hideSidebar}>Projects</a>
           </li>
-          <li className="mt-4 hover:text-green-900 sm:text-4xl sm:pl-10">
+          <li className="mt-4 hover:text-green-light sm:text-4xl sm:pl-10">
             <a href="#Contacts" onClick={hideSidebar}>Contact Me</a>
           </li>
         </ul>
 
         {/* Main Navigation */}
-        <ul className="w-full flex justify-between items-center gap-5 text-green-900">
+        <ul className="w-full flex justify-between items-center gap-5 text-green-light">
           <li className="mr-auto">
             <span className="text-3xl">Portfolio</span>
           </li>
@@ -87,7 +87,7 @@ export default function NavBar() {
           <li>
             <input
               type="checkbox"
-              className="toggle border-green-900 bg-dark-900 hover:bg-dark-900"
+              className="toggle border-green-light bg-dark-900 hover:bg-dark-900"
               style={{ "--tglbg": theme === "dark" ? "#b9ff66" : "white", }}
               checked={theme === "dark"}
               onChange={toggleTheme}

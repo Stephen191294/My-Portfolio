@@ -9,7 +9,7 @@ export default function HeroSection() {
       </div>
       <div className="pt-10 flex flex-col items-center justify-center text-center">
         <h1 className="dark:text-gray-100 text-xl typewriter sm:text-4xl md:text-4xl">
-          Hello, I'm <span className="text-green-900">Stephen Sullivan</span>
+          Hello, I'm <span className="text-green-light">Stephen Sullivan</span>
           <span className="text-gray-400 typewriter sm:text-2xl block">
             Front-end developer
           </span>
@@ -20,7 +20,7 @@ export default function HeroSection() {
             Download CV
           </button>
 
-          <button className="btn btn-wide bg-dark-900 text-white border-green-900 transition-transform duration-300 hover:animate-pulse">
+          <button className="btn btn-wide bg-dark-900 text-white border-green-light transition-transform duration-300 hover:animate-pulse">
             Contact Me
           </button>
         </div>
