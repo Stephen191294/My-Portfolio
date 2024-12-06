@@ -5,7 +5,7 @@ export default function HeroSection() {
       className="flex flex-col md:flex-col lg:flex-row-reverse justify-center items-center h-screen wow animate__animated animate__fadeInLeft  wow"
     >
       <div className="w-60 transition-transform duration-300 hover:animate-pulse cursor-pointer ml-10">
-        <img src="src\assets\images\Group1(3).png" alt="avatar" />
+        <img src="./assets/images/Group1(3).png" alt="avatar" />
       </div>
       <div className="pt-10 flex flex-col items-center justify-center text-center">
         <h1 className="dark:text-gray-100 text-xl typewriter sm:text-4xl md:text-4xl">
