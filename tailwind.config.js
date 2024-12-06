@@ -9,8 +9,8 @@ export default {
 
     colors:{
       "green-light": "#b9ff66",
-      "green-800": "#7ee600",
-      "green-700": "#2a4d00 ",
+      "green-light2": "#7ee600",
+      "green-light3": "#2a4d00 ",
       "dark-900": "#191a23",
     },
    
