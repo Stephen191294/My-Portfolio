@@ -1,23 +1,47 @@
 export default function ProjectsSection() {
-  const projectImages = [
-    "https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp",
-    "https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp",
-    "https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp",
-    "https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp",
-    "https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp",
-    "https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp",
-    "https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp",
-  ];
-
   return (
-    <section>
-      <h4 className="text-center mt-10 text-2xl">Projects</h4>
-      <div className="carousel p-10 wow animate__animated animate__fadeInLeft">
-        {projectImages.map((img, index) => (
-          <div className="carousel-item" key={index}>
-            <img src={img} alt={`Project ${index + 1}`} />
-          </div>
-        ))}
+    <section id="Projects" className="h-screen flex flex-col justify-center items-center">
+      <h4 className="text-center pt-10 pb-5 text-2xl sm:text-4xl">Projects</h4>
+
+      <div className="carousel w-full ">
+        <div id="item1" className="carousel-item">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
+            className="w-full"
+          />
+        </div>
+        <div id="item2" className="carousel-item w-full">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+            className="w-full"
+          />
+        </div>
+        <div id="item3" className="carousel-item w-full">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+            className="w-full"
+          />
+        </div>
+        <div id="item4" className="carousel-item w-full">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+            className="w-full"
+          />
+        </div>
+      </div>
+      <div className="flex w-full justify-center gap-2 py-2">
+        <a href="#item1" className="btn btn-xs bg-green-900">
+          1
+        </a>
+        <a href="#item2" className="btn btn-xs bg-green-900">
+          2
+        </a>
+        <a href="#item3" className="btn btn-xs bg-green-900">
+          3
+        </a>
+        <a href="#item4" className="btn btn-xs bg-green-900">
+          4
+        </a>
       </div>
     </section>
   );

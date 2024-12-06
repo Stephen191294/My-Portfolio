@@ -4,6 +4,7 @@
 
 * {
   font-family: "Space Grotesk", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .sidebar {
@@ -23,32 +24,22 @@
   transform: translateX(100%);
   transition: transform 0.3s ease-out;
   z-index: 100;
+  width: 100vw;
+  padding: 20px;
 }
 
 .sidebar.visible {
   transform: translateX(0);
 }
 
-/* Light Mode */
 body.light {
   background-color: #fff;
   color: #000;
 }
 
-/* Dark Mode */
 body.dark {
   background-color: #191a23;
   color: #fff;
-}
-
-body {
- /* margin-bottom: 600px;*/
-}
-
-/* Other styles for light and dark theme can be added here */
-
-.clip-path-custom {
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 .typewriter {

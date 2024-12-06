@@ -29,36 +29,36 @@ export default function NavBar() {
   }, [theme]);
 
   return (
-    <header className="w-full">
+    <header className="w-full sticky top-0 z-50">
       <nav
-        className="bg-dark-900 h-28 border-b-4 border-green-900 flex p-5"
+        className="bg-dark-900 h-28 border-b-4 border-green-900 flex p-10 "
         role="navigation"
       >
         {/* Sidebar Menu */}
         <ul
-          className={`sidebar p-4 flex-col items-start justify-start ${
+          className={`sidebar flex-col items-start justify-start ${
             isSidebarVisible ? "visible" : ""
           }`}
         >
-          <li onClick={hideSidebar}>
+          <li className="sm:pl-10" onClick={hideSidebar}>
             <a href="#">
-              <i className="fa-solid fa-xmark"></i>
+              <i className="fa-solid fa-xmark text-2xl"></i>
             </a>
           </li>
-          <li className="mt-4">
-            <span className="text-green-900">Welcome to my portfolio!</span>
+          <li className="mt-4 sm:pl-10">
+            <span className="text-green-900 sm:text-5xl">Welcome to my portfolio!</span>
           </li>
-          <li className="mt-4 hover:text-green-900">
-            <a href="#">About me</a>
+          <li className="mt-4 hover:text-green-900 sm:text-4xl sm:pl-10">
+            <a href="#About" onClick={hideSidebar}>About me</a>
           </li>
-          <li className="mt-4 hover:text-green-900">
-            <a href="#">Skills</a>
+          <li className="mt-4 hover:text-green-900 sm:text-4xl sm:pl-10">
+            <a href="#Skills" onClick={hideSidebar}>Skills</a>
           </li>
-          <li className="mt-4 hover:text-green-900">
-            <a href="#">Projects</a>
+          <li className="mt-4 hover:text-green-900 sm:text-4xl sm:pl-10">
+            <a href="#Projects" onClick={hideSidebar}>Projects</a>
           </li>
-          <li className="mt-4 hover:text-green-900">
-            <a href="#">Contact Me</a>
+          <li className="mt-4 hover:text-green-900 sm:text-4xl sm:pl-10">
+            <a href="#Contacts" onClick={hideSidebar}>Contact Me</a>
           </li>
         </ul>
 
@@ -68,16 +68,16 @@ export default function NavBar() {
             <span className="text-3xl">Portfolio</span>
           </li>
           <li className="hidden xl:block lg:block md:block hover:text-gray-100 hideOnMobile">
-            <a href="#">About Me</a>
+            <a href="#About">About Me</a>
           </li>
           <li className="hidden xl:block lg:block md:block hover:text-gray-100 hideOnMobile">
-            <a href="#">Skills</a>
+            <a href="#Skills">Skills</a>
           </li>
           <li className="hidden xl:block lg:block md:block hover:text-gray-100 hideOnMobile">
-            <a href="#">Projects</a>
+            <a href="#Projects">Projects</a>
           </li>
           <li className="hidden xl:block lg:block md:block hover:text-gray-100 hideOnMobile">
-            <a href="#">Contact Me</a>
+            <a href="#Contacts">Contact Me</a>
           </li>
           <li onClick={showSidebar}>
             <a href="#">
@@ -88,7 +88,7 @@ export default function NavBar() {
             <input
               type="checkbox"
               className="toggle border-green-900 bg-dark-900 hover:bg-dark-900"
-              style={{ "--tglbg": theme === "dark" ? "white" : "#b9ff66", }}
+              style={{ "--tglbg": theme === "dark" ? "#b9ff66" : "white", }}
               checked={theme === "dark"}
               onChange={toggleTheme}
             />

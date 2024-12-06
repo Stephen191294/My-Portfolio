@@ -23,9 +23,9 @@ export default function ContactSection() {
   ];
 
   return (
-    <section>
+    <section id="Contacts" className=" flex flex-col items-center justify-center gap-11">
       <h5 className="text-2xl text-center">Contacts</h5>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-row justify-center items-center gap-6 relative wow animate__animated animate__fadeInLeft">
+      <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-6 relative wow animate__animated animate__fadeInLeft">
         {contacts.map((contact, index) => (
           <div className="flex flex-col justify-center items-center" key={index}>
             <i className={`cursor-pointer ${contact.iconClass} text-green-900 fa-3x animate-pulse`} ></i>
@@ -33,6 +33,7 @@ export default function ContactSection() {
             <span className="cursor-pointer">{contact.value}</span>
           </div>
         ))}
+        
       </div>
     </section>
   );

@@ -1,4 +1,3 @@
-
 import React from "react";
 import HeroSection from "./assets/components/HeroSection";
 import AboutSection from "./assets/components/AboutSection";
@@ -11,7 +10,7 @@ import "animate.css";
 export default function Main() {
   return (
     <main className="h-70 pb-10">
-      <NavBar/>
+      <NavBar />
       <HeroSection />
       <AboutSection />
       <SkillsSection />
