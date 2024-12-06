@@ -16,7 +16,7 @@ export default function HeroSection() {
         </h1>
 
         <div className="flex flex-col sm:flex-row gap-3 mt-5 items-center">
-          <button className="btn btn-wide bg-gradient-to-l from-green-light3 via-green-light2 to-green-light text-gray-100 border-none hover:from-green-600 hover:via-green-700 hover:to-green-800 transition-transform duration-300 hover:animate-pulse">
+          <button className="btn btn-wide bg-gradient-to-l from-green-light3 via-green-light2 to-green-light text-gray-100 border-none hover:from-green-600 hover:via-green-light3 hover:to-green-light2 transition-transform duration-300 hover:animate-pulse">
             Download CV
           </button>
 
