@@ -17,7 +17,7 @@ export default function SkillsSection() {
   ];
 
   return (
-    <section id="Skills" className="h-screen pt-32 flex flex-col justify-center items-center">
+    <section id="Skills" className="h-screen pt-32 flex flex-col justify-center items-center  wow animate__animated animate__fadeInLeft">
       <h3 className="text-center text-2xl sm:text-4xl pb-5">Skills</h3>
       <p className="text-center sm:text-2xl">Technologies that I'm really good at</p>
       <div className="container mx-auto flex items-center justify-center mt-10 wow animate__animated animate__fadeInLeft  wow ">

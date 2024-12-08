@@ -1,47 +1,59 @@
+import projectOne from "../images/positivus.png";
+import pokebowl from "../images/pokebowls.png";
+
 export default function ProjectsSection() {
   return (
-    <section id="Projects" className="h-screen flex flex-col justify-center items-center">
+    <section
+      id="Projects"
+      className="h-screen flex flex-col justify-center items-center  wow animate__animated animate__fadeInLeft"
+    >
       <h4 className="text-center pt-10 pb-5 text-2xl sm:text-4xl">Projects</h4>
 
-      <div className="carousel w-full ">
-        <div id="item1" className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
-            className="w-full"
-          />
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
+        <div>
+          <a
+            href="https://positivusfrontend.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+          >
+            <img
+              src={projectOne}
+              alt="Positivus Project Thumbnail"
+              className="rounded-t-lg w-full h-40 object-cover"
+            />
+            <div className="p-4 bg-green-light">
+              <h2 className="text-lg font-semibold text-gray-800">
+                Positivus Project
+              </h2>
+              <p className="text-sm text-gray-600 mt-2 bg">
+                Positivus landing page.
+              </p>
+            </div>
+          </a>
         </div>
-        <div id="item2" className="carousel-item w-full">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-            className="w-full"
-          />
+        <div>
+          <a
+            href="https://asianpokebowls.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+          >
+            <img
+              src={pokebowl}
+              alt="Positivus Project Thumbnail"
+              className="rounded-t-lg w-full h-40 object-cover"
+            />
+            <div className="p-4 bg-green-light">
+              <h2 className="text-lg font-semibold text-gray-800">
+                Poke Bowl Project
+              </h2>
+              <p className="text-sm text-gray-600 mt-2 bg">
+                Pokebowl .
+              </p>
+            </div>
+          </a>
         </div>
-        <div id="item3" className="carousel-item w-full">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-            className="w-full"
-          />
-        </div>
-        <div id="item4" className="carousel-item w-full">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-            className="w-full"
-          />
-        </div>
-      </div>
-      <div className="flex w-full justify-center gap-2 py-2">
-        <a href="#item1" className="btn btn-xs bg-green-light">
-          1
-        </a>
-        <a href="#item2" className="btn btn-xs bg-green-light">
-          2
-        </a>
-        <a href="#item3" className="btn btn-xs bg-green-light">
-          3
-        </a>
-        <a href="#item4" className="btn btn-xs bg-green-light">
-          4
-        </a>
       </div>
     </section>
   );
