@@ -63,7 +63,7 @@ export default function ProjectsSection() {
             className="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
           >
             <img
-              src={pokebowl}
+              src={pokedex}
               alt="Pokédex Project Thumbnail"
               className="rounded-t-lg w-full h-40 object-cover"
             />
