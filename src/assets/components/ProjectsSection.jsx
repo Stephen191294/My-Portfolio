@@ -69,7 +69,7 @@ export default function ProjectsSection() {
             />
             <div className="p-4 bg-green-light">
               <h2 className="text-lg font-semibold text-gray-800">
-                Pokédex Bowl Project
+                Pokédex API Project
               </h2>
               <p className="text-sm text-gray-600 mt-2 bg">
                 Pokédex .
