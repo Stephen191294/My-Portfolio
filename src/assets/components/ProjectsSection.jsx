@@ -1,5 +1,6 @@
 import projectOne from "../images/positivus.png";
 import pokebowl from "../images/pokebowls.png";
+import pokedex from "../images/pokedex.png"
 
 export default function ProjectsSection() {
   return (
@@ -50,6 +51,28 @@ export default function ProjectsSection() {
               </h2>
               <p className="text-sm text-gray-600 mt-2 bg">
                 Pokebowl .
+              </p>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://pokedexsloan.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+          >
+            <img
+              src={pokebowl}
+              alt="Pokédex Project Thumbnail"
+              className="rounded-t-lg w-full h-40 object-cover"
+            />
+            <div className="p-4 bg-green-light">
+              <h2 className="text-lg font-semibold text-gray-800">
+                Pokédex Bowl Project
+              </h2>
+              <p className="text-sm text-gray-600 mt-2 bg">
+                Pokédex .
               </p>
             </div>
           </a>
