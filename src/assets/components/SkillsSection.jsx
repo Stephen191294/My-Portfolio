@@ -1,6 +1,11 @@
 import React from "react";
 import SkillCard from "./skillcard";
 
+
+
+
+
+
 export default function SkillsSection() {
   const skills = [
     { iconClass: "fa-brands fa-js fa-4x", skillName: "JavaScript" },

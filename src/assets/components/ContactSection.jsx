@@ -29,7 +29,7 @@ export default function ContactSection() {
   return (
     <section id="Contacts" className="flex flex-col items-center justify-center gap-11 mt-[40px]">
       <h5 className="text-2xl text-center">Contacts</h5>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-6 relative wow animate__animated animate__fadeInLeft">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-6 wow animate__animated animate__fadeInLeft">
         {contacts.map((contact, index) => (
           <div className="flex flex-col justify-center items-center text-center" key={index}>
             <a href={contact.href || "#"} target="_blank" rel="noopener noreferrer">
