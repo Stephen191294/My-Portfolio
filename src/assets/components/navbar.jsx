@@ -88,7 +88,7 @@ export default function NavBar() {
             <input
               type="checkbox"
               className="toggle border-green-light bg-dark-900 hover:bg-dark-900"
-              style={{ "--tglbg": theme === "dark" ? "#b9ff66" : "white", }}
+              style={{ "--tglbg": theme === "dark" ? "#0000ff" : "white", }}
               checked={theme === "dark"}
               onChange={toggleTheme}
             />

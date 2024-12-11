@@ -6,7 +6,7 @@ export default function ProjectsSection() {
   return (
     <section
       id="Projects"
-      className="h-screen flex flex-col justify-center items-center  wow animate__animated animate__fadeInLeft"
+      className="h-screen flex flex-col justify-center items-center  wow animate__animated animate__fadeInLeft mt-[300px]"
     >
       <h4 className="text-center pt-10 pb-5 text-2xl sm:text-4xl">Projects</h4>
 
@@ -16,7 +16,7 @@ export default function ProjectsSection() {
             href="https://positivusfrontend.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+            className="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 hover:animate-pulse"
           >
             <img
               src={projectOne}
@@ -38,7 +38,7 @@ export default function ProjectsSection() {
             href="https://asianpokebowls.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+            className="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 hover:animate-pulse"
           >
             <img
               src={pokebowl}
@@ -60,7 +60,7 @@ export default function ProjectsSection() {
             href="https://pokedexsloan.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+            className="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 hover:animate-pulse"
           >
             <img
               src={pokedex}
