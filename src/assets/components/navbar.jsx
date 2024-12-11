@@ -46,18 +46,18 @@ export default function NavBar() {
             </a>
           </li>
           <li className="mt-4 sm:pl-10">
-            <span className="text-green-light sm:text-5xl">Welcome to my portfolio!</span>
+            <span className="text-green-light text-3xl sm:text-5xl">Welcome to my portfolio!</span>
           </li>
-          <li className="mt-4 hover:text-green-light sm:text-4xl sm:pl-10">
+          <li className="mt-4 hover:text-green-light text-2xl sm:text-4xl sm:pl-10">
             <a href="#About" onClick={hideSidebar}>About me</a>
           </li>
-          <li className="mt-4 hover:text-green-light sm:text-4xl sm:pl-10">
+          <li className="mt-4 hover:text-green-light text-2xl sm:text-4xl sm:pl-10">
             <a href="#Skills" onClick={hideSidebar}>Skills</a>
           </li>
-          <li className="mt-4 hover:text-green-light sm:text-4xl sm:pl-10">
+          <li className="mt-4 hover:text-green-light text-2xl sm:text-4xl sm:pl-10">
             <a href="#Projects" onClick={hideSidebar}>Projects</a>
           </li>
-          <li className="mt-4 hover:text-green-light sm:text-4xl sm:pl-10">
+          <li className="mt-4 hover:text-green-light text-2xl sm:text-4xl sm:pl-10">
             <a href="#Contacts" onClick={hideSidebar}>Contact Me</a>
           </li>
         </ul>
