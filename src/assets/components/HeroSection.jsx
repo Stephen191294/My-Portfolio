@@ -7,8 +7,8 @@ export default function HeroSection() {
       className="flex flex-col pt-40  md:flex-col lg:flex-col justify-center items-center  wow animate__animated animate__fadeInLeft  wow"
     >
       <div className="flex flex-col justify-center items-center lg:flex-row-reverse">
-        <div className="w-60 transition-transform duration-300  cursor-pointer ml-10 wow animate__animated animate__bounceInDown ">
-          <img  src={avatar} alt="avatar" />
+        <div className="w-60 transition-transform duration-300  cursor-pointer ml-10 wow animate__animated animate__bounceInDown hover:animate-bounce ">
+          <img  src={avatar} alt="avatar"/>
         </div>
         <div className="pt-10 flex flex-col items-center justify-center text-center">
           <h1 className="dark:text-gray-100 text-xl typewriter sm:text-4xl md:text-4xl">

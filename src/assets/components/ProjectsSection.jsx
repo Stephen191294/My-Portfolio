@@ -16,7 +16,7 @@ export default function ProjectsSection() {
             href="https://positivusfrontend.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 hover:animate-pulse"
+            className="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
           >
             <img
               src={projectOne}
@@ -38,7 +38,7 @@ export default function ProjectsSection() {
             href="https://asianpokebowls.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 hover:animate-pulse"
+            className="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
           >
             <img
               src={pokebowl}
@@ -60,7 +60,7 @@ export default function ProjectsSection() {
             href="https://pokedexsloan.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 hover:animate-pulse"
+            className="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
           >
             <img
               src={pokedex}
