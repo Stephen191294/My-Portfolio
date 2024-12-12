@@ -33,15 +33,15 @@ export default function ContactSection() {
         {contacts.map((contact, index) => (
           <div className="flex flex-col justify-center items-center text-center" key={index}>
             <a href={contact.href || "#"} target="_blank" rel="noopener noreferrer">
-              <i className={`cursor-pointer ${contact.iconClass} text-green-light fa-3x hover:animate-bounce`}></i>
+              <i className={`cursor-pointer ${contact.iconClass} text-green-light bg-dark-900 p-5 rounded-full fa-3x hover:animate-bounce`}></i>
             </a>
-            <span>{contact.label}</span>
+            <span className="font-bold mt-[10px] text-2xl ">{contact.label}</span>
             {contact.href ? (
               <a
                 href={contact.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="cursor-pointer text-green-light hover:underline"
+                className="cursor-pointer text-1xl  hover:underline"
               >
                 {contact.value}
               </a>
