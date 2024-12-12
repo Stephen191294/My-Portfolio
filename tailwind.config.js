@@ -8,9 +8,7 @@ export default {
   theme: {
 
     colors:{
-      "green-light": "#0000ff",
-      "green-light2": "#7ee600",
-      "green-light3": "#2a4d00 ",
+      "green-light": "#b3f0ff",
       "dark-900": "#191a23",
     },
    

@@ -7,13 +7,6 @@
   scroll-behavior: smooth;
 }
 
-.pulse {
-  animation: pulse-animation 2s;
-}
-
-
-
-
 .sidebar {
   position: fixed;
   top: 0;
@@ -40,7 +33,7 @@
 }
 
 body.light {
-  background-color: #EAF0F6;
+  background-color: #fff;
   color: #191a23;
 }
 

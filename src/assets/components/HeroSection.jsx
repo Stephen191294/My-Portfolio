@@ -7,7 +7,7 @@ export default function HeroSection() {
       className="flex flex-col pt-40  md:flex-col lg:flex-col justify-center items-center  wow animate__animated animate__fadeInLeft  wow"
     >
       <div className="flex flex-col justify-center items-center lg:flex-row-reverse">
-        <div className="w-60 transition-transform duration-300  cursor-pointer ml-10 wow animate__animated animate__bounceInDown hover:animate-bounce ">
+        <div className="w-80 transition-transform duration-300  cursor-pointer ml-10 hover:animate-pulse">
           <img  src={avatar} alt="avatar"/>
         </div>
         <div className="pt-10 flex flex-col items-center justify-center text-center">
@@ -23,6 +23,7 @@ export default function HeroSection() {
             <button
               className="btn btn-wide bg-dark-900 text-white border-green-light transition-transform duration-300 hover:animate-pulse hover:text-green-light"
               aria-label="Download CV"
+              href
             >
               Download CV
             </button>
