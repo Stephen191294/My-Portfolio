@@ -1,12 +1,13 @@
 import projectOne from "../images/positivus.png";
 import pokebowl from "../images/pokebowls.png";
-import pokedex from "../images/pokedex.png"
+import pokedex from "../images/pokedex.png";
+import jadoo from "../images/jadoo.png";
 
 export default function ProjectsSection() {
   return (
     <section
       id="Projects"
-      className="h-screen flex flex-col justify-center items-center  wow animate__animated animate__fadeInLeft mt-[300px]"
+      className="h-screen flex flex-col justify-center items-center  wow animate__animated animate__fadeInLeft mt-[400px]"
     >
       <h4 className="text-center pt-10 pb-5 text-2xl sm:text-4xl">Projects</h4>
 
@@ -70,6 +71,28 @@ export default function ProjectsSection() {
             <div className="p-4 bg-green-light">
               <h2 className="text-lg font-semibold text-gray-800">
                 Pokédex API Project
+              </h2>
+              <p className="text-sm text-gray-600 mt-2 bg">
+                Pokédex .
+              </p>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://jaddolandingpagepractice.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+          >
+            <img
+              src={jadoo}
+              alt="Pokédex Project Thumbnail"
+              className="rounded-t-lg w-full h-40 object-cover"
+            />
+            <div className="p-4 bg-green-light">
+              <h2 className="text-lg font-semibold text-gray-800">
+                Jadoo responsive landing page
               </h2>
               <p className="text-sm text-gray-600 mt-2 bg">
                 Pokédex .
