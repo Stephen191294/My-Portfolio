@@ -50,9 +50,7 @@ export default function ProjectsSection() {
               <h2 className="text-lg font-semibold text-gray-800">
                 Poke Bowl Project
               </h2>
-              <p className="text-sm text-gray-600 mt-2 bg">
-                Pokebowl .
-              </p>
+              <p className="text-sm text-gray-600 mt-2 bg">Pokebowl .</p>
             </div>
           </a>
         </div>
@@ -72,9 +70,7 @@ export default function ProjectsSection() {
               <h2 className="text-lg font-semibold text-gray-800">
                 Pokédex API Project
               </h2>
-              <p className="text-sm text-gray-600 mt-2 bg">
-                Pokédex .
-              </p>
+              <p className="text-sm text-gray-600 mt-2 bg">Pokédex .</p>
             </div>
           </a>
         </div>
@@ -94,9 +90,7 @@ export default function ProjectsSection() {
               <h2 className="text-lg font-semibold text-gray-800">
                 Jadoo responsive landing page
               </h2>
-              <p className="text-sm text-gray-600 mt-2 bg">
-                Pokédex .
-              </p>
+              <p className="text-sm text-gray-600 mt-2 bg">Pokédex .</p>
             </div>
           </a>
         </div>

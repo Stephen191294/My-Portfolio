@@ -13,7 +13,7 @@ export default function HeroSection() {
         <div className="pt-10 flex flex-col items-center justify-center text-center">
           <h1 className="dark:text-gray-100 text-xl typewriter sm:text-4xl md:text-4xl">
             Hello, I'm{" "}
-            <span className="text-green-light">Stephen Sullivan</span>
+            <span className=" hero-span ">Stephen Sullivan</span>
             <span className="text-gray-400 typewriter sm:text-2xl block">
               Front-end developer
             </span>
