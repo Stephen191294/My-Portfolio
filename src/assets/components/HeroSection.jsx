@@ -28,12 +28,13 @@ export default function HeroSection() {
               Download CV
             </a>
 
-            <button
+            <a
               className="btn btn-wide bg-dark-900 text-white border-green-light transition-transform duration-300 hover:animate-pulse hover:text-green-light"
               aria-label="Contact Me"
+              href="mailto:sullivanstephen57@yahoo.com"
             >
               Contact Me
-            </button>
+            </a>
           </div>
         </div>
       </div>
