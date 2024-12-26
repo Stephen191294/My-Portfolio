@@ -7,7 +7,7 @@ export default function HeroSection() {
       className="flex flex-col pt-40  md:flex-col lg:flex-col justify-center items-center  wow animate__animated animate__fadeInLeft  wow"
     >
       <div className="flex flex-col justify-center items-center lg:flex-row-reverse">
-        <div className="w-80 transition-transform duration-300  cursor-pointer ml-10 hover:animate-pulse">
+        <div className="w-80 transition-transform duration-300  cursor-pointer ml-10">
           <img src={avatar} alt="avatar" />
         </div>
         <div className="pt-10 flex flex-col items-center justify-center text-center">

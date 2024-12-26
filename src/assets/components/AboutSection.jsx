@@ -2,7 +2,7 @@ export default function AboutSection() {
   return (
     <section className="wow animate__animated animate__fadeInLeft  wow">
       <h2 className="text-4xl text-center pt-5">About Me</h2>
-      <p className="text-center sm:text-2xl sm:mb-10 p-5 animate__animated animate__fadeIn">
+      <p className="text-center sm:text-2xl sm:mb-10 p-5 animate__animated animate__fadeIn lg:w-[1000px] lg:m-auto">
         As a passionate and dedicated front-end developer, I bring to the table
         a wealth of experience and a deep understanding of web development
         technologies. My skill set includes proficiency in React, JavaScript,
